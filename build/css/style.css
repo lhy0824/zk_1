@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+httml,
+body,
+.wrap {
+  width: 100%;
+  height: 100%; }
+
+.wrap {
+  display: flex;
+  flex-direction: column; }
+
+header {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  align-items: center; }
+
+header .logo span {
+  color: red;
+  font-size: 18px; }
+
+.ico {
+  display: flex; }
+
+.ico span {
+  padding-left: 10px; }
+
+section {
+  width: 100%;
+  flex: 1;
+  flex-direction: column;
+  background: #ccc; }
+
+section .dl {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  margin-bottom: 10px; }
+
+.banner {
+  width: 100%;
+  height: auto;
+  display: flex;
+  background: #fff; }
+
+.dl dl,
+.banner dl,
+footer dl {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: auto;
+  justify-content: center;
+  align-items: center; }
+
+.dl dl dd,
+.banner dl dd,
+footer dl {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+
+.car {
+  width: 100%;
+  height: auto;
+  display: flex;
+  background: #fff; }
+
+.car dl:nth-child(1),
+.car dl:nth-child(3) {
+  width: 30%;
+  height: auto;
+  justify-content: center;
+  align-items: center; }
+
+.car dl:nth-child(2) {
+  width: 40%;
+  height: auto;
+  justify-content: center;
+  align-items: center; }
+
+footer {
+  border-top: 1px solid #ccc;
+  width: 100%;
+  height: 44px;
+  display: flex; }
